@@ -23,3 +23,5 @@ NOTES:
 *  Currently works when spot-checked against a few model pages. 
 *  Still under development and testing. 
 *  Not prettified (with exception handling etc.)
+*  Currently it does not scrape the individual model files, since they are all available via the zip download link.
+*  The output XML file contains model page's section headers and URLs therein, NOT the actual contents of the pages or files pointed to by the URLs. Of course the script can be easily modified to download actual contents.
