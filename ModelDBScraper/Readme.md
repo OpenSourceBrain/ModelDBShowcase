@@ -1,6 +1,6 @@
 showmodel.py
 
-Python Script to web-scrape model pages in the Computational Neuroscience models repository ModelDB (http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=<valid_model_id>)
+Python Script to web-scrape model pages in the Computational Neuroscience models repository ModelDB (Example page http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=45539)
 
 Author: Suresh Jois dasneuro [at] gmail.com http://www.opensourcebrain.org/users/361
 
