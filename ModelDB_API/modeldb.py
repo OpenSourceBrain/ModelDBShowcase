@@ -1,4 +1,5 @@
 import utils
+from entry import Entry
 
 from bs4 import BeautifulSoup
 
@@ -11,5 +12,9 @@ def get_entry(id):
     
     soup = BeautifulSoup(contents)
     
-    print soup.title.string
     
+    for th in soup.find_all('th'):
+        if th.has_attr('id') and th['id'] == "modelname":
+            entry = Entry(id, th.string)
+    
+    return entry
